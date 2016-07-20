@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="81a0fd4d-34a8-40a7-a74c-ebc720511a31" 
+        solutionId="81a0fd4d-34a8-40a7-a74c-ebc720511a31" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="DynamicPageLayouts"
+        sharePointProductVersion="15.0">
+</package>
