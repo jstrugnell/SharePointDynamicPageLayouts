@@ -41,16 +41,30 @@
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=92beab7912d5c48e, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Code\BaseWebPartZoneLayout.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Code\PageWebPartZoneConfiguration.cs" />
+    <Compile Include="Common\WebControls\DynamicWebPartZoneRenderer.cs" />
+    <Compile Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\WebPartZoneConfigControl.ascx.cs">
+      <DependentUpon>WebPartZoneConfigControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +80,9 @@
     </None>
     <None Include="Common\Structure\SiteColumns\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{1c75510e-388c-491e-8766-3132ab495ddc}</SharePointProjectItemId>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9c87108-55c8-47f4-b590-85a2e4ef2aba}</SharePointProjectItemId>
     </None>
     <None Include="Features\Branding\Branding.feature">
       <FeatureId>{6a703187-b217-4d50-b713-3e50bd47b502}</FeatureId>
@@ -101,15 +118,19 @@
   <ItemGroup>
     <Content Include="Common\Branding\MasterPages\Elements.xml" />
     <Content Include="Common\Branding\PageLayouts\dynamic.aspx" />
-    <Content Include="Common\Branding\PageLayouts\bs3-banded.aspx" />
-    <Content Include="Common\Branding\PageLayouts\bs3-banner.aspx" />
-    <Content Include="Common\Branding\PageLayouts\bs3-blog.aspx" />
-    <Content Include="Common\Branding\PageLayouts\bs3-orbit.aspx" />
-    <Content Include="Common\Branding\PageLayouts\bs3-sidebar.aspx" />
-    <Content Include="Common\Branding\PageLayouts\bs3-workspace.aspx" />
     <Content Include="Common\Branding\PageLayouts\Elements.xml" />
     <Content Include="Common\Structure\DynamicPage\Elements.xml" />
     <Content Include="Common\Structure\SiteColumns\Elements.xml" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\FourWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\FullWidthWebPartZone.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\OneHalf-TwoQuarterWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\OneQuarter-OneThreeQuarterWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\OneThreeQuarter-OneQuarterWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\SixWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\ThreeWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\TwoQuarter-OneHalfWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\TwoWebPartZones.ascx" />
+    <Content Include="CONTROLTEMPLATES\DynamicPageLayouts\WebPartZoneLayouts\WebPartZoneConfigControl.ascx" />
     <Content Include="Features\Branding\Branding.Template.xml">
       <DependentUpon>Branding.feature</DependentUpon>
     </Content>
@@ -125,9 +146,11 @@
     <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\js\bootstrap.min.js" />
     <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\js\npm.js" />
     <Content Include="Layouts\DynamicPageLayouts\scripts\bootstrap3-custom.js" />
+    <Content Include="Layouts\DynamicPageLayouts\scripts\DynamicPageConfiguration.js" />
     <Content Include="Layouts\DynamicPageLayouts\scripts\jquery-1.9.1.js" />
     <Content Include="Layouts\DynamicPageLayouts\styles\bootstrap3-custom.css" />
     <Content Include="Layouts\DynamicPageLayouts\styles\sp-responsive.css" />
+    <Content Include="Lib\Newtonsoft.Json.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

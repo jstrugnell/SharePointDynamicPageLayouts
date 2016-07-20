@@ -7,7 +7,7 @@
 <!DOCTYPE html >
 <SharePoint:SPHtmlTag lang="en" runat="server" id="SPHtmlTag" dir="&lt;%$Resources:wss,multipages_direction_dir_value%&gt;">
     <head runat="server">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="X-UA-Compatible" content="IE=10" />
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta http-equiv="Expires" content="0" />
         <meta charset="utf-8" />
@@ -46,6 +46,9 @@
         <!--[if lt IE 9]>
 		    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/scripts/jquery-1.9.1.js%>' />" ></script>
 
     </head>
     <body onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();">
@@ -633,8 +636,6 @@
         <asp:ContentPlaceHolder ID="WSSDesignConsole" Visible="False" runat="server" />
         <%--		<asp:ContentPlaceHolder ID="SPNavigation" Visible="False" runat="server" />--%>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/scripts/jquery-1.9.1.js%>' />" ></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/Bootstrap3/js/bootstrap.min.js%>' />" ></script>
         <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/scripts/bootstrap3-custom.js%>' />" ></script> 

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="PageLayouts" Url="_catalogs/masterpage" RootWebOnly="TRUE">
+    <File Path="PageLayouts\bs3-banded.aspx" Url="bs3-banded.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Bootstrap 3 Banded" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#$Resources:cmscore,contenttype_articlepage_name;;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#"/>
+    </File>
+    <File Path="PageLayouts\bs3-banner.aspx" Url="bs3-banner.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Bootstrap 3 Banner" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#$Resources:cmscore,contenttype_articlepage_name;;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#"/>
+    </File>
+    <File Path="PageLayouts\bs3-blog.aspx" Url="bs3-blog.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Bootstrap 3 Blog" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#$Resources:cmscore,contenttype_articlepage_name;;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#"/>
+    </File>
+    <File Path="PageLayouts\bs3-orbit.aspx" Url="bs3-orbit.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Bootstrap 3 Orbit" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#$Resources:cmscore,contenttype_articlepage_name;;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#"/>
+    </File>
+    <File Path="PageLayouts\bs3-sidebar.aspx" Url="bs3-sidebar.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Bootstrap 3 Sidebar" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#$Resources:cmscore,contenttype_articlepage_name;;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#"/>
+    </File>
+    <File Path="PageLayouts\bs3-workspace.aspx" Url="bs3-workspace.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Bootstrap 3 Workspace" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#$Resources:cmscore,contenttype_articlepage_name;;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#"/>
+    </File>
+    <File Path="PageLayouts\dynamic.aspx" Url="dynamic.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Dynamic Layout" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png, ~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;/Preview Images/ArticleLeft.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#Dynamic Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D008DFEC5D74C6947278142F833B89E8019;#"/>
+    </File>
+  </Module>
+</Elements>

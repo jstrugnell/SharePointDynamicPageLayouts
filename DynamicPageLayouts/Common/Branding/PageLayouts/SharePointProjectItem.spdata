@@ -2,12 +2,6 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="PageLayouts\" Type="ElementManifest" />
-    <ProjectItemFile Source="bs3-blog.aspx" Target="PageLayouts\" Type="ElementFile" />
-    <ProjectItemFile Source="bs3-orbit.aspx" Target="PageLayouts\" Type="ElementFile" />
-    <ProjectItemFile Source="bs3-sidebar.aspx" Target="PageLayouts\" Type="ElementFile" />
-    <ProjectItemFile Source="bs3-workspace.aspx" Target="PageLayouts\" Type="ElementFile" />
-    <ProjectItemFile Source="bs3-banded.aspx" Target="PageLayouts\" Type="ElementFile" />
-    <ProjectItemFile Source="bs3-banner.aspx" Target="PageLayouts\" Type="ElementFile" />
     <ProjectItemFile Source="dynamic.aspx" Target="PageLayouts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

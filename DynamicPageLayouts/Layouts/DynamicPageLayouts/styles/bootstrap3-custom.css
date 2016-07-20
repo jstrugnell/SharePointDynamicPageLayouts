@@ -483,3 +483,26 @@ li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover, .ms-core-listMenu-
 #MainRow > div {
     z-index: 0;
 }
+
+
+
+
+/* Added as part of the Dynamic Page Configuration project */
+
+button {
+    min-width:0; /* SharePoint override */
+}
+
+.editmode .dynamic-editor-panel {
+    border: 1px dashed #eee;
+    margin: 5px 0;
+}
+
+.editmode .dynamic-editor-panel button.btn {
+    background-color:transparent;
+}
+
+.editmode .dynamic-editor-panel:hover {
+    border: 1px dashed #bbb;
+    background-color: #f3f3f3;
+}
