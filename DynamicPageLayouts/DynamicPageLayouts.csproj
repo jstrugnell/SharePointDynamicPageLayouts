@@ -54,6 +54,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Common\Branding\MasterPages\bootstrap3.master" />
+    <None Include="Common\Branding\MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3e6d0b5f-8ed3-4c33-a4a4-dee0a04e414a}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Branding\Branding.feature">
+      <FeatureId>{6a703187-b217-4d50-b713-3e50bd47b502}</FeatureId>
+    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{81a0fd4d-34a8-40a7-a74c-ebc720511a31}</PackageId>
@@ -62,8 +69,12 @@
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Content Include="Common\Branding\MasterPages\Elements.xml" />
+    <Content Include="Features\Branding\Branding.Template.xml">
+      <DependentUpon>Branding.feature</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
