@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Article Page (0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D) -->
+  <ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D008DFEC5D74C6947278142F833B89E8019" Name="Dynamic Page" Group="Custom Content Types" Description="Publishing Page allowing for custom template configuration." Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{52c79daa-22c1-4e01-a191-5f4a90a8f0f6}" DisplayName="Dynamic Page Configuration" Required="FALSE" Name="DynamicPageConfiguration" NumLines="20" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{52c79daa-22c1-4e01-a191-5f4a90a8f0f6}"
+       Name="DynamicPageConfiguration"
+       DisplayName="Dynamic Page Configuration"
+       Type='Note' 
+       NumLines='20' 
+       Group='Custom Site Columns' 
+       Required='FALSE' 
+       UnlimitedLengthInDocumentLibrary='TRUE'>
+  </Field>
+</Elements>

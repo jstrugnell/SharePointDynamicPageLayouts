@@ -58,10 +58,36 @@
     <None Include="Common\Branding\MasterPages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{3e6d0b5f-8ed3-4c33-a4a4-dee0a04e414a}</SharePointProjectItemId>
     </None>
+    <None Include="Common\Branding\PageLayouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{005f1dcb-507f-482f-a213-6aedac85c326}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\Structure\DynamicPage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3f82bddf-678b-4cba-a8c8-f3135971fa08}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\Structure\SiteColumns\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c75510e-388c-491e-8766-3132ab495ddc}</SharePointProjectItemId>
+    </None>
     <None Include="Features\Branding\Branding.feature">
       <FeatureId>{6a703187-b217-4d50-b713-3e50bd47b502}</FeatureId>
     </None>
+    <None Include="Features\Structure\Structure.feature">
+      <FeatureId>{96962bdd-08db-496c-8a7b-d33565b71fb9}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b809f491-5101-4111-a8a6-8607e671b593}</SharePointProjectItemId>
+    </None>
     <None Include="key.snk" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap-theme.css.map" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap-theme.min.css.map" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap.css.map" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap.min.css.map" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Layouts\DynamicPageLayouts\Bootstrap3\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0fc393be-7126-4c41-bd0a-9847cfe5f10f}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{81a0fd4d-34a8-40a7-a74c-ebc720511a31}</PackageId>
     </None>
@@ -69,12 +95,39 @@
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Images\DynamicPageLayouts\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Common\Branding\MasterPages\Elements.xml" />
+    <Content Include="Common\Branding\PageLayouts\dynamic.aspx" />
+    <Content Include="Common\Branding\PageLayouts\bs3-banded.aspx" />
+    <Content Include="Common\Branding\PageLayouts\bs3-banner.aspx" />
+    <Content Include="Common\Branding\PageLayouts\bs3-blog.aspx" />
+    <Content Include="Common\Branding\PageLayouts\bs3-orbit.aspx" />
+    <Content Include="Common\Branding\PageLayouts\bs3-sidebar.aspx" />
+    <Content Include="Common\Branding\PageLayouts\bs3-workspace.aspx" />
+    <Content Include="Common\Branding\PageLayouts\Elements.xml" />
+    <Content Include="Common\Structure\DynamicPage\Elements.xml" />
+    <Content Include="Common\Structure\SiteColumns\Elements.xml" />
     <Content Include="Features\Branding\Branding.Template.xml">
       <DependentUpon>Branding.feature</DependentUpon>
     </Content>
+    <Content Include="Features\Structure\Structure.Template.xml">
+      <DependentUpon>Structure.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap-theme.css" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap-theme.min.css" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap.css" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\css\bootstrap.min.css" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\js\bootstrap.js" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\js\bootstrap.min.js" />
+    <Content Include="Layouts\DynamicPageLayouts\Bootstrap3\js\npm.js" />
+    <Content Include="Layouts\DynamicPageLayouts\scripts\bootstrap3-custom.js" />
+    <Content Include="Layouts\DynamicPageLayouts\scripts\jquery-1.9.1.js" />
+    <Content Include="Layouts\DynamicPageLayouts\styles\bootstrap3-custom.css" />
+    <Content Include="Layouts\DynamicPageLayouts\styles\sp-responsive.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

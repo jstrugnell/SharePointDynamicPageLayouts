@@ -2,5 +2,10 @@
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="81a0fd4d-34a8-40a7-a74c-ebc720511a31" solutionId="81a0fd4d-34a8-40a7-a74c-ebc720511a31" resetWebServer="false" sharePointProductVersion="15.0" name="DynamicPageLayouts" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
     <featureReference itemId="6a703187-b217-4d50-b713-3e50bd47b502" />
+    <featureReference itemId="96962bdd-08db-496c-8a7b-d33565b71fb9" />
   </features>
+  <projectItems>
+    <projectItemReference itemId="b809f491-5101-4111-a8a6-8607e671b593" />
+    <projectItemReference itemId="0fc393be-7126-4c41-bd0a-9847cfe5f10f" />
+  </projectItems>
 </package>

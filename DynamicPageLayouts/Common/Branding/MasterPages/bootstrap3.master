@@ -39,14 +39,13 @@
         </SharePoint:AjaxDelta>--%>
         <SharePoint:CssRegistration Name="Themable/corev15.css" runat="server" />
 
-        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/css/bootstrap3.min.css %>" runat="server" />
-        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/css/bootstrap2-custom.min.css %>" runat="server" />
-        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/css/sp-responsive.css %>" runat="server" />
-        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/css/bootstrap3-custom.min.css %>" runat="server" />
+        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/Bootstrap3/css/bootstrap.min.css %>" runat="server" />
+        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/styles/sp-responsive.css %>" runat="server" />
+        <SharePoint:CssRegistration Name="<% $SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/styles/bootstrap3-custom.css %>" runat="server" />
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+		    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
 
     </head>
     <body onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();">
@@ -635,10 +634,10 @@
         <%--		<asp:ContentPlaceHolder ID="SPNavigation" Visible="False" runat="server" />--%>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/js/jquery-1.9.1.js%>' />" ></script>
+        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/scripts/jquery-1.9.1.js%>' />" ></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/js/bootstrap3.min.js%>' />" ></script>
-        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/Style Library/ResponsiveServer/Bootstrap3/js/bootstrap3-custom.js%>' />" ></script> 
+        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/Bootstrap3/js/bootstrap.min.js%>' />" ></script>
+        <script type="text/javascript" src="<asp:Literal runat='server' Text='<%$SPUrl:~sitecollection/_layouts/15/DynamicPageLayouts/scripts/bootstrap3-custom.js%>' />" ></script> 
     </body>
 </SharePoint:SPHtmlTag>
 
